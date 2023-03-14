@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup_page {
+    font-family: "Inter",sans-serif;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/images/medical-register.jpg);
+}
+
+.signup_container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: 0.5rem;
+    width: 350px;
+}
+
+.signup_container > h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/* .signup_container, */
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.signup_container>h2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Signup_formItem>label {
+    display: inline-block;
+    /* background:-o-linear-gradient(#eeee, white); */
+    margin-bottom: 20px;
+    position: absolute;
+    /* padding: 0 10px; */
+    transform: translate(30px, -25px);
+    font-size: 18px;
+}
+
+.Signup_formItem>input[type="text"],
+.Signup_formItem>input[type="email"],
+.Signup_formItem>input[type="password"] {
+    border: 1px solid black;
+    height: 45px;
+    padding: 0 1rem;
+    width: -webkit-fill-available;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+.signup-btn{
+    border: none;
+    background-color:rgba(22, 87, 240, 0.601) ;
+    color: white;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 45px;
+    cursor: pointer;
+}
